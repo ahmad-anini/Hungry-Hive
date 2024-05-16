@@ -1,0 +1,156 @@
+body{
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: black;
+    
+}
+#row{
+    position: relative;
+    padding: 8px 8px 32px 8px;
+    background: #dddccf;
+    background-color:black;
+    height: 300px;
+}
+#img{
+    width:200px;
+    height:200px;
+}
+
+a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+a:hover{
+    color: rgb(228, 142, 12);
+    text-decoration: none;
+}
+p{
+    color: white;
+    font-size: 1rem;
+}
+
+#discover{
+    background-image: url(../img/pizza.jpg);
+    height:250px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#overlay{
+    font-size: 2.5vw;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color:  rgba(228, 142, 12, .8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.vincent_top_corners {
+    background-image: linear-gradient(black, black), linear-gradient(-45deg, transparent 75%, black 75%), linear-gradient(45deg, transparent 75%, black 75%);
+}
+
+.vincent_top_corners {
+    top: 0;
+}
+.vincent_top_corners {
+    width: 200%;
+    height: 10px;
+    position: absolute !important;
+    left: 0;
+    border: solid transparent;
+    border-width: 10px 0;
+    background-color: black;
+    background-color: hsla(0, 0%, 0%, 0);
+    background-repeat: repeat, repeat-x, repeat-x, repeat-x, repeat-x;
+    background-position: 0 0, 0 0, 0 0, 0 100%, 0 100%;
+    background-size: auto auto, 15px 15px, 15px 15px, 15px 15px, 15px 15px;
+    background-clip: padding-box, border-box, border-box, border-box, border-box;
+    background-origin: padding-box, border-box, border-box, border-box, border-box;
+    z-index: 100;
+}
+#menu{
+    position: relative;
+    padding: 8px 8px 32px 8px;
+    background: #dddccf;
+    background-color:black;
+    height: 500px; 
+}
+.card-body{
+    background-color: black;
+}
+.card-title{
+    color: white;
+}
+#cards{
+    background-color: black;
+    padding: 15px;
+}
+#cardbtn{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: inherit;
+    border: none;
+    box-shadow: none;
+}
+
+#card{
+    align-items: center;
+    background-color: black;
+
+}
+#cardbtn,img{
+    height:100%;
+    width: 100%;
+    border-radius: 50%;
+}
+#cardbody{
+    text-align: center;
+}
+#title{
+    color: rgb(228, 142, 12);
+    font-style: italic;
+}
+.quantity{
+    color: white;
+    border-radius: 50%;
+    background-color:rgb(228, 142, 12);
+    padding: 2px 5px;
+}
+.contacttitle{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(228, 142, 12);
+}
+.contact{
+    background-color: black;
+    padding: 10px;
+    position: relative;
+}
+.contacticons{
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    align-items: end;
+    width: 100%;
+    height:50px ;
+}
+#cardbtn{
+    position: relative;
+
+}
+#cardbtn:hover{
+    opacity: .6;
+    transition: .5s ease;
+}
+.fa-cart-shopping:hover{
+color: rgb(228, 142, 12) !important;
+transition: .8s ease;
+}
+

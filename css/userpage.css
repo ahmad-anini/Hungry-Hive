@@ -1,0 +1,84 @@
+body{
+    padding: 0;
+    background-color: black;
+    overflow-x: hidden;
+}
+#row{
+    position: relative;
+    padding: 8px 8px 32px 8px;
+    background: #dddccf;
+    background-color:black;
+    height: 200px;
+}
+#img{
+    width:200px;
+    height:200px;
+}
+a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.4s ease;
+}
+a:hover{
+    color: rgb(228, 142, 12);
+    text-decoration: none;
+}
+p{
+    color: white;
+    font-size: 1rem;
+}
+#signup{
+ padding-top: 2px;
+ padding-bottom: 2px;
+ background-color: rgb(228, 142, 12);
+ width: 50%;
+ margin-left: 25%;
+ height: 700px;
+ border-radius: 2px;
+ margin-top: 20px;
+ box-shadow: 0 7px 30px rgba(1, 1, 1, 60%);
+}
+label{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+input:hover{
+border-color: black;
+}
+input[type="submit"]{
+width: 50%;
+border: solid 1px black;
+background-color:rgb(235, 70, 29) ;
+color: white;
+padding: 5px;
+margin-left: 25%;
+order: none;
+border-radius: 3px;
+transition: .7s ease;
+margin-right: 20%;
+margin-top: 15px;
+}
+.in{
+    margin-left: 5%;
+    width: 90%;
+    outline: 0;
+    border-width: 0 0 1.5px;
+    border-color: black;
+    border-radius: 5px;
+    border-bottom: solid black 1px;
+    background-color: rgb(228, 142, 12);
+}
+input[type="submit"]:hover{
+    opacity: .8;
+}
+p{
+font-size: 10px;
+margin-left: 50px;
+display: inline-block;
+}
+input[type="submit"]:active{
+    border: none;
+    background-color:rgb(233, 84, 47) ;
+}

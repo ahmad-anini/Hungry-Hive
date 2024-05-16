@@ -1,0 +1,97 @@
+body{
+    background-color: black;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  #row{
+    position: relative;
+    padding: 8px 8px 32px 8px;
+    background: #dddccf;
+    background-color:black;
+    height: 300px;
+  }
+  .container{
+    background-color: rgb(228, 142, 12);
+    border-radius: 5px;
+  
+  }
+  #img{
+    width:200px;
+    height:200px;
+  }
+  
+  a{
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: 0.4s ease;
+  }
+  a:hover{
+    color: rgb(228, 142, 12);
+    text-decoration: none;
+  }
+  p{
+    color: white;
+    font-size: 1rem;
+  }
+  .container{
+  padding: 5px;
+  
+  }
+  img{
+    height: 50px;
+    width: 40px;
+    border-radius: 5px;
+  }
+  p{
+    padding-top: 15px;
+    color: white;
+  }
+  .range{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  input{
+    border-radius: 50%;
+    border: none;
+    color: white;
+    background-color: black;
+    height: 30px;
+    width: 30px;
+  }
+  #counter{
+    padding-top: 15px;
+  }
+  #remove{
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+  }
+  #icon{
+    color: white;
+  }
+  #icon:hover{
+    color: red;
+    transition: .4s ease;
+  }
+#icon1:hover{
+    color: green;
+    transition: .4s ease;
+}  
+#edit{
+    border-radius: 5px;
+    border: none;
+    background-color: black;  
+}
+#icon1{
+    color: white;
+}
+.fa-user-plus{
+    color: white;
+}
+.fa-user-plus:hover{
+    color: rgb(228, 142, 12);
+    transition: .4s ease;
+}

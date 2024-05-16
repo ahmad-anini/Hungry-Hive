@@ -1,0 +1,83 @@
+
+body{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/val-toch-BHeQQmZM8jE-unsplash.jpg);
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    font-family: "Gill Sans", sans-serif;
+}
+#sgnup{
+   box-shadow: 0 7px 25px rgba(1, 1, 1, 60%);
+   margin-right: 300px;
+   background-image: url(../img/pizzasign.jpg);
+   background-size: cover;
+   width: 500px;
+   height: 400px;
+   margin-left: 200px;
+   border-radius: 3px;
+}
+#signup{
+ padding-top: 2px;
+ padding-bottom: 2px;
+ background-color: white;
+ width: 400px;
+ height: 350px;
+ border-radius: 2px;
+ margin-left: 350px;
+ margin-top: 23px;
+ box-shadow: 0 7px 30px rgba(1, 1, 1, 60%);
+}
+label{
+    display: flex;
+    margin-top: 60px;
+    margin-left: 50px;
+}
+input{
+ width: 300px;
+ margin-left: 50px;
+ outline: 0;
+ border-width: 0 0 1.5px;
+ border-color: rgb(232, 195, 127);
+}
+input:hover{
+border-color: black;
+}
+input[type="submit"]{
+border: solid 1px black;
+background-color:rgb(235, 70, 29) ;
+color: white;
+padding: 5px;
+margin-left: 52px;
+border-radius: 3px;
+transition: .7s ease;
+}
+
+input[type="submit"]:hover{
+    opacity: .8;
+}
+p{
+font-size: 10px;
+margin-left: 50px;
+display: inline-block;
+margin-top: 30px;
+}
+a{
+    font-size: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover{
+    color: blueviolet;
+}
+input[type="submit"]:active{
+    border: none;
+    background-color:rgb(233, 84, 47) ;
+}
+#message{
+    color: black;
+
+}
